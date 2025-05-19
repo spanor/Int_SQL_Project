@@ -76,31 +76,91 @@ Query: [3.project_retention_analysis.sql](\3.project_retention_analysis.sql)
 
 **Key Findings**
 
-- High Churn Rate: 90.5% of customers have churned, indicating a serious retention issue.
+High Churn Rate: 90.5% of customers have churned, indicating a serious retention issue.
 
-- Low Active User Base: Only 9.5% of customers remain active, showing weak customer lifecycle engagement.
+Low Active User Base: Only 9.5% of customers remain active, showing weak customer lifecycle engagement.
 
-- Retention Imbalance: The disproportionate churn vs. active ratio suggests systemic weaknesses in customer experience or value proposition.
+Retention Imbalance: The disproportionate churn vs. active ratio suggests systemic weaknesses in customer experience or value proposition.
 
 **Business Insights**
 
-- Urgent Retention Strategy Needed: The high churn rate signals the need for a robust retention plan including re-engagement campaigns and customer feedback loops.
+Urgent Retention Strategy Needed: The high churn rate signals the need for a robust retention plan including re-engagement campaigns and customer feedback loops.
 
-- Customer Journey Optimization: With only 9.5% retained, reviewing onboarding, product usage, and support services could uncover drop-off pain points.
+Customer Journey Optimization: With only 9.5% retained, reviewing onboarding, product usage, and support services could uncover drop-off pain points.
 
-- Segment-Based Loyalty Programs: Tailored incentives for at-risk segments may help prevent further churn and re-activate dormant users.
+Segment-Based Loyalty Programs: Tailored incentives for at-risk segments may help prevent further churn and re-activate dormant users.
 
 ## Strategic Recommendations
-- {insert strategic recommendations here}
+**1. Customer Segmentation Strategy**
+
+***Findings Summary:***
+
+High-value segment (25%) contributes 66% of total revenue
+
+Medium-value segment (50%) contributes 32% of revenue
+
+Low-value segment (25%) contributes just 2% of revenue
+
+**_Recommendations:_**
+
+*High-Value Segment*
+VIP Loyalty Program: Introduce elite rewards (e.g., priority support, exclusive events).
+Co-Creation Initiatives: Engage in product/service development feedback loops.
+
+*Medium-Value Segment*
+Upsell & Cross-Sell: Use AI-based personalized product recommendations.
+Mid-Tier Loyalty Benefits: Offer point-based rewards, referral incentives, and early product access.
+
+*Low-Value Segment*
+Cost-Efficient Engagement: Provide automated educational content (how-to videos, blog guides).
+Basic Rewards Program: Introduce a low-cost loyalty program to encourage more purchases.
+
+
+**2. Cohort-Based Growth and Retention Strategy**
+
+***Findings Summary:***
+
+Newer cohorts (2022–2024) show weaker revenue per customer
+
+Overall net revenue is rising due to customer volume, not improved per-customer performance
+
+***Recommendations:***
+
+Customer Quality Focus
+Acquisition Targeting: Improve targeting to attract higher-LTV customers using behavior-based segmentation.
+
+
+Win-Back Campaigns: Deploy campaigns focused on 2022–2024 cohorts to increase reactivation rates.
+
+Sustainable Growth Metrics
+Shift KPIs from volume to value: Track metrics like Average Revenue per User (ARPU), LTV, and retention per cohort.
+
+
+**3. Retention & Churn Reduction Strategy**
+
+***Findings Summary:***
+
+Only 9.5% of customers remain active
+
+90.5% churn rate points to a major customer lifecycle gap
+
+***Recommendations:***
+
+*Customer Journey Optimization*
+
+Immediate Interventions: Launch re-engagement emails, push notifications, and offers targeting inactive users.
+
+Lifecycle Optimization
+Onboarding Optimization: Simplify and gamify onboarding to maximize first-week engagement.
+
+Customer Support Enhancement: Integrate live chat or guided tutorials to reduce early abandonment.
+
+Segment-Based Loyalty Programs
+Predictive Churn Modeling: Identify churn signals early and act with timely incentives.
+
+Customer Lifetime Value (CLV) Management: Make CLV a guiding metric across departments (product, marketing, support).
 
 ## Technical Details
 - **Database**: PostgreSQL
-- **Schema**: {insert schema name here}
-- **Tables**: {insert table names here} 
-- **ETL Process**: {insert ETL process here}    
-- **Data Sources**: {insert data sources here}  
-- **Tools Used**: {insert tools used here}  
-- **Version Control**: {insert version control here}    
-- **Deployment**: {insert deployment here}     
-- **Testing**: {insert testing here}    
-- **Documentation**: {insert documentation here}    
+- **Analysis Tools**: PostgreSQL, DBeaver, PGAdimin
+- **Vizualisation**: ChatGPT
